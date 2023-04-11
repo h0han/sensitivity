@@ -39,7 +39,7 @@ def process_video(input_video):
 
                         if distance > 0.001:
                             joint_name = mp_pose.PoseLandmark(i).name
-                            joint_movement_counts[joint_name] += 1
+                            joint_movement_counts[jointqqqqqqqqqqqqqqqqqqqqqqqqqqqq_name] += 1
 
                 prev_frame_landmarks = results.pose_landmarks
 
